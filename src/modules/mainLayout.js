@@ -21,7 +21,7 @@ export default function MainLayout({children}){
         <>
         <Header>
             <Container maxWidth="xl">
-                <Toolbar sx={{display:"flex", justifyContent: "space-between", width: "100%", padding: "0px"}}>
+                <Toolbar sx={{display:"flex", justifyContent: "space-between", padding: "0px"}}>
                     <MenuContainer>
                     <IconButton onClick={ toggleDrawer(true)}><Menu sx={{color: "white"}}/></IconButton>
                     <SideBar toggleDrawer={toggleDrawer} state={openNabar} />

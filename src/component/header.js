@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const Header = styled(AppBar)`
     width: 100%;
-    min-height: 20%;
+    height: auto;
     position: sticky;
     background: #0E4B5B;
 
@@ -11,11 +11,9 @@ export const Header = styled(AppBar)`
 
 export const HeaderContainer = styled(Container)`
     display: flex;
-    position: relative; 
-    left: 10%;
     padding: 0px;
     width: 40%;
-    margin: 0px;
+    margin: 0px 0px 0px 50%;
 `
 
 export const MenuContainer = styled(Container)`
