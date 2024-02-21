@@ -1,0 +1,11 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #1E1E1E;
+}
+
+a{
+    text-decoration: none;
+    width: 100%;
+}
