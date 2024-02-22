@@ -5,15 +5,16 @@ import GroupsIcon from '@mui/icons-material/Groups';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import Navbutton from "./navButton";
 import LogoutIcon from '@mui/icons-material/Logout';
-import UserCard from "../user/userCard";
+import UserCard from "../../user/userCard";
 import { LogoutButton, NavBar, UserContainer } from "@/component/sidebar";
+import { routes } from "@/utils/utils";
 
 
 export default function SideBar({toggleDrawer, state}) {
 
     const navList = ["Mensajes", "Cuidadores", "Agendados"]
     const navIcons = [<EmailIcon/>, <GroupsIcon/>, <CalendarMonthIcon/>]
-    const navpaths = ["#", "/lista", "/agendar-cita"]
+    const navpaths = ["#", routes.LIST_PETSITTER, routes.CREATE_APOINTMENT]
     
     const list = () =>(
         <Box

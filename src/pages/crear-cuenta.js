@@ -1,6 +1,8 @@
+import SignUp from "@/modules/signup";
 
-export default function SignUp(){
+
+export default function SignUpPage(){
     return(
-        <h1>Crear cuenta</h1>
+        <SignUp />
     )
 }
