@@ -42,6 +42,7 @@ export default function HeaderNavbar({toggleDrawer, openNabar}){
                         <Image src={"/logo_00.svg"} width={163} height={37} alt="logo CuidaCan"/>
                     </Link>
                  </Box>
+                 
                  </Container>
                 </Grid>
                 <Grid item xs={4} sx={{display:"flex", justifyContent:"center", alignItems:"center"}}>
