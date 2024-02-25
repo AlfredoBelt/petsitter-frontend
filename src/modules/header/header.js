@@ -29,7 +29,7 @@ export default function HeaderNavbar({toggleDrawer, openNabar}){
     //         </Toolbar>
     //     </Container>
     // </Header>
-    <AppBar>
+    <AppBar sx={{position:"sticky"}}>
         <Container maxWidth="xl">
             <Toolbar disableGutters>
             <Grid container>
