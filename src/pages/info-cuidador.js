@@ -1,6 +1,7 @@
+import InfoPetsitter from "@/modules/infopetsitter";
 
-export default function InfoPetsitter(){
+export default function InfoPetsitterPage(){
     return(
-        <h1>Estas en el info del cuidador</h1>
+        <InfoPetsitter />
     )
 }

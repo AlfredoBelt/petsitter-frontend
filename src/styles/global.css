@@ -1,10 +1,15 @@
+
+:root{
+    background-color: #FFF5E1;
+}
 body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     color: #1E1E1E;
-    height: 100vh;
-    background-color: #FFF5E1;
+    
+    
+   
 
 }
 

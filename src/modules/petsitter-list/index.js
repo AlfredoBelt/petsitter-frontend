@@ -45,7 +45,7 @@ export default function Petsitters(){
         // </MainContent>
         <Grid container padding={2} spacing={2} sx={{flexDirection:{xs:"column-reverse", md:"row"}}}>
             <Grid item xs={12} md={9} >
-            <Box sx={{display:"flex" , flexDirection:"column",width:"100%", height:"100%", alignItems:"center"}}>
+            <Box sx={{display:"flex" , flexDirection:"column", alignItems:"center"}}>
                 <Box sx={{display: {xs:"none",md:"flex"}, columnGap: "2em", top: "7em"}}>
                      <InputSearch type="text" variant="outlined" placeholder="Buscar cuidador" InputProps={{
                          startAdornment: (
@@ -61,34 +61,16 @@ export default function Petsitters(){
                              </InputAdornment>
                          )
                      }}/>
-                 </Box> 
-                 <Box>
-                     <h3 className={poppins.className}>Cuidador</h3> 
-                     <TableList />
-                     {/* <Box>
-                        <CardContent sx={{display:"flex", justifyContent:"space-evenly"}}>
-                            <p>Cuidador</p>
-                            <p>Nombre</p>
-                            <p>Ubicación</p>
-                            <p>Ciudad</p>
-                            <p>Estado</p>
-                            <p>Valoraciones</p>
-                        </CardContent>
-                        <Box>
-                            {
-                                cuidadores.map((elem) => (
-                                    <TableList key={elem.id} petsitters={elem} />
-                                ))
-                            }
-                        </Box>
-                     </Box> */}
-                 </Box>
-             </Box>
-                
+                </Box> 
+                <Box >
+                    <h3 className={poppins.className}>Cuidador</h3> 
+                    <TableList />
+                </Box>
+            </Box>
              
             </Grid>
             <Grid item xs={12} md={3} sx={{display:{xs:"flex", md:"block"}, justifyContent:"center", alignItems:"center"}}>
-                {/* <h1>Hola 2</h1> */}
+                
                 <Box sx={{ display:"flex", alignItems:{xs:"start",md:"center"}, flexDirection:"column", background:{xs:"transparent", md:"white"}, height:"auto", width:"100%", borderRadius:"1em", boxShadow:{xs:"none",md:"0px 0px 5px 1px rgba(0,0,0,0.15)"}}}>
                     <h3>Los mejores valorados</h3>
                     <Box sx={{display:{xs:"flex"}, flexDirection:{xs:"row",md:"column"}, overflow:"auto", width:"90%", height:{xs:"auto",md:"80vh"}, alignItems:"center", rowGap:{md:"2em"}, columnGap:{xs:"2em"}}}>
@@ -99,7 +81,6 @@ export default function Petsitters(){
                        
                     </Box>
                 </Box>
-            
             </Grid>
         </Grid>
     )
