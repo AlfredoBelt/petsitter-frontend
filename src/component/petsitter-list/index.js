@@ -30,7 +30,7 @@ export const StyledTableCell = styled(TableCell)`
 
 
 export const MostRankedContainer = styled(Box)`
-    width: 30%;
+    width: auto;
     height: 100%;
     display: flex;
     flex-direction: column;
