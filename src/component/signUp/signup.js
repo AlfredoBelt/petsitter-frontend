@@ -7,6 +7,7 @@ import styled from "styled-components"
 
 
 export const MainContent = styled.main`
+    
     height: 100%;
     background: #0E4B5B;
     display: flex;
