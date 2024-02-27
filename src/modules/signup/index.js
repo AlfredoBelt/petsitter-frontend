@@ -29,13 +29,13 @@ export default function SignUp(){
                         <Grid item xs={4} md={6} lg={4}>
                             <InputText type="text" placeholder="Teléfono" required/>
                         </Grid>
-                        <Grid item xs={4} md={6} lg={4} sx={{display:{xs:"none", md:"block"}}}>
+                        <Grid item xs={4} md={6} lg={4} >
                             <InputText type="text" placeholder="Correo" required/>
                         </Grid>
-                        <Grid item xs={4} md={6} lg={4} sx={{display:{xs:"none", md:"block"}}}>
+                        <Grid item xs={4} md={6} lg={4} >
                             <InputText type="text" placeholder="Contraseña" required/>
                         </Grid>
-                        <Grid item xs={4} md={6} lg={4} sx={{display:{xs:"none", md:"block"}}}>
+                        <Grid item xs={4} md={6} lg={4} >
                             <InputText type="text" placeholder="Repetir contraseña" required/>
                         </Grid>
                         <Grid item xs={4} sx={{display:{xs:"none", md:"block"}}}></Grid>

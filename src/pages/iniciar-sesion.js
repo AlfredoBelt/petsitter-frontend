@@ -1,5 +1,7 @@
-export default function Login(){
+import Login from "@/modules/login";
+
+export default function LoginPage(){
     return(
-        <h1>Estas en el login</h1>
+        <Login />
     )
 }

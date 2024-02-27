@@ -21,7 +21,7 @@ export default function MainLayout({children}){
     return(
         <>
         {
-            pathname === routes.SIGNUP
+            pathname === routes.SIGNUP || pathname === routes.LOGIN
             ? null
             : <HeaderNavbar toggleDrawer={toggleDrawer} openNabar={openNabar} />
 

@@ -5,7 +5,7 @@ import {ContactButton, QuestionButton} from "@/component/infoPetsitter/index"
 
 export default function AsideInfo(){
     return(
-        <Box sx={{display:"flex", flexDirection:"column", rowGap:"1em"}}>
+        <Box sx={{display:"flex", flexDirection:"column", rowGap:"1em", fontSize:{xs:"0.7em", sm:"1em"}}}>
             <Box>
                 <strong className={poppins.className}>Esmeralda Aguilar</strong>
                 <Rating value={5} readOnly sx={{paddingLeft:"1em"}}/>
