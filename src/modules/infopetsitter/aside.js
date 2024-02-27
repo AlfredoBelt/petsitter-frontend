@@ -1,7 +1,7 @@
 import { Box, Rating } from "@mui/material";
 import Image from "next/image";
 import { poppins } from "@/fonts/fonts";
-import {ContactButton} from "@/component/infoPetsitter/index"
+import {ContactButton, QuestionButton} from "@/component/infoPetsitter/index"
 
 export default function AsideInfo(){
     return(
@@ -33,7 +33,35 @@ export default function AsideInfo(){
                         <p>por dia</p>
                     </Box>
             </Box>
-            
+            <Box sx={{display:"flex", flexDirection:"column", rowGap:"1em", alignItems:"center"}}>
+                <ContactButton >Contactar a Esmeralda</ContactButton>
+                <QuestionButton >Hazme una pregunta</QuestionButton>
+            </Box>
+            <Box sx={{display:{xs:"none", md:"block"}}}>
+                <Box>
+                    <strong>Esmeralda Aguilar</strong>
+                    <p>Me encantan los animales, los respetos, los cuido y les doy mucho amor. 
+                        Cuando se quedan en casa perritos de otras personas loan trato como a si fuera 
+                        un miembro de la familia. Y de igual manera cuando lo se saco a pasear. 
+                        Los llevo a caminar al parque o dependiendo la instrucción que me dé su due...
+                        Ver mas...</p>
+                </Box>
+                <Box>
+                    <strong>Algunas habilidades</strong>
+                    <ul>
+                        <li>Administra Inyecciones</li>
+                        <li>Administra Medicina</li>
+                        <li>Cuidados Especiales</li>
+                        <li>Formación en primeros auxilios</li>
+                        <li>Experiencia con perros activos</li>
+                        <li>Experiencia con mascotas de tercera edad</li>
+                    </ul>
+                </Box>
+                <Box>
+                    <strong>Ubicación</strong>
+                    <Image src={"/ubicacion.png"} width={500} height={500} alt="Ubicación"/>
+                </Box>
+            </Box>
         </Box>
         
     )

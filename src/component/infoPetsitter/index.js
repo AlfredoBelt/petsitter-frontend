@@ -1,8 +1,9 @@
-const { Button } = require("@mui/material");
-const { default: styled } = require("styled-components");
+import { styled } from '@mui/material/styles';
+import { Button } from "@mui/material"
 
-const ContactButton = styled(Button)({
+export const ContactButton = styled(Button)({
     borderRadius: '10px',
+    width:"95%",
     boxShadow: 'none',
     textTransform: 'none',
     color: 'white',
@@ -39,8 +40,9 @@ const ContactButton = styled(Button)({
     },
   });
   
-  const QuestionButton = styled(Button)({
+  export const QuestionButton = styled(Button)({
     borderRadius: '10px',
+    width:"95%",
     boxShadow: 'none',
     textTransform: 'none',
     color: 'white',
