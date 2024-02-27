@@ -5,13 +5,13 @@ import {ContactButton, QuestionButton} from "@/component/infoPetsitter/index"
 
 export default function AsideInfo(){
     return(
-        <Box>
+        <Box sx={{display:"flex", flexDirection:"column", rowGap:"1em"}}>
             <Box>
                 <strong className={poppins.className}>Esmeralda Aguilar</strong>
                 <Rating value={5} readOnly sx={{paddingLeft:"1em"}}/>
             </Box>
             <p><span><strong>Se ubica en: </strong></span>Colonia los olivos Culiacánn Sinaloa (31) años de experiencia con:</p>
-            <Box>
+            <Box sx={{display:"flex", justifyContent:{xs:"center", md:"start"}}}>
                 <Image src={"/cuida.svg"} width={400} height={200} alt="Cuidado de animales" style={{width:"60%", height:"auto"}}/>
             </Box>
             <Box sx={{display:"flex", flexDirection:"column"}}>
@@ -59,7 +59,7 @@ export default function AsideInfo(){
                 </Box>
                 <Box>
                     <strong>Ubicación</strong>
-                    <Image src={"/ubicacion.png"} width={500} height={500} alt="Ubicación"/>
+                    <Image src={"/ubicacion.svg"} width={400} height={400} alt="Ubicación" style={{width:"100%", height:"auto"}}/>
                 </Box>
             </Box>
         </Box>
