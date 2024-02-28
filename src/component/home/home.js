@@ -16,7 +16,7 @@ export default function Home(){
                 
             </Grid>
             <Grid item xs={12} md={6} sx={{display:"flex", justifyContent:"flex-end"}}>
-                <Image src={"/main.png"} width={400} height={400} alt="imagen principal" priority  style={{width:"91%", height:"auto"}}/>
+                <Image src={"/main.png"} width={400} height={400} alt="imagen principal" priority  style={{width:"100%", height:"auto"}}/>
                 
             </Grid>
         </Grid>

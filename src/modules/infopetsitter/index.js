@@ -7,7 +7,7 @@ export default function InfoPetsitter(){
     return(
         <Grid container padding={2} spacing={2}>
             <Grid item xs={12} md={8}  >
-                <Box sx={{background:"white", borderRadius:"1em", padding:"1em"}}>
+                <Box sx={{background:{xs:"transparent",md:"white"}, borderRadius:"1em", padding:"1em"}}>
                     <SliderComponent />
                 </Box>
                 <Box sx={{display:{xs:"none", md:"block"}}}>
